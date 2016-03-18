@@ -2,10 +2,23 @@
 //= depend_on_asset "bootstrap/glyphicons-halflings-regular.svg"
 //= depend_on_asset "bootstrap/glyphicons-halflings-regular.ttf"
 //= depend_on_asset "bootstrap/glyphicons-halflings-regular.woff"
+@import url("https://fonts.googleapis.com/css?family=Carrois+Gothic");
 
-$body-bg: #2ecc71;
-$navbar-inverse-bg: #27ae60;
-$navbar-inverse-link-color: #ecf0f1;
+$body-bg: #2980b9;
+$font-family-sans-serif: 'Carrois Gothic', sans-serif;
+$navbar-height: 60px;
+$navbar-default-bg: white;
+$navbar-default-brand-color: #2980b9;
 $brand-primary: #f39c12;
 $jumbotron-bg: #ecf0f1;
+
 @import 'bootstrap';
+@import 'bootstrap-sprockets';
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+     font-weight: bold;
+}
