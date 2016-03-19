@@ -1,3 +1,4 @@
+ruby '2.2.4'
 source 'https://rubygems.org'
 
 gem 'rails', '4.2.5'
@@ -11,6 +12,7 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'devise'
 gem "paperclip"
 gem 'aws-sdk'
+gem 'devise'
 
 group :development, :test do
 	gem 'sqlite3'
